@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-
+import Person from "./schemas/person.js";
 const MONGO_URI = process.env.MONGO_URI;
 
 mongoose.connect(MONGO_URI, {
